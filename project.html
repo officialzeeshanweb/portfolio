@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Zeeshan Ahmad UI UX Designer</title>
+        <meta name="AdsBot-Google" content="noindex follow" />
+        <meta name="description" content="Rexon - Personal Portfolio Template" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/plugins/aos.css" />
+        <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="assets/css/pages/service.css" />
+        <link rel="stylesheet" href="assets/css/pages/home.css" />
+        <style>
+            /* Portfolio category tabs (project page only) */
+            .portfolio-tabs {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .portfolio-tab {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #141414;
+                border-radius: 100px;
+                padding: 14px 32px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 1;
+                color: #141414;
+                background: #ffffff;
+                cursor: pointer;
+                transition: background 0.3s ease, border-color 0.3s ease;
+            }
+            .portfolio-tab:hover,
+            .portfolio-tab:focus-visible {
+                background: linear-gradient(90deg, rgb(191, 221, 15) 0%, rgb(11, 239, 255) 100%);
+                border-color: transparent;
+                color: #141414;
+                outline: none;
+            }
+            .portfolio-tab.active {
+                background: linear-gradient(90deg, rgb(191, 221, 15) 0%, rgb(11, 239, 255) 100%);
+                border-color: transparent;
+                color: #141414;
+            }
+            @media only screen and (max-width: 767px) {
+                .portfolio-tabs {
+                    gap: 12px;
+                }
+                .portfolio-tab {
+                    padding: 13px 20px;
+                    font-size: 14px;
+                }
+            }
+            .portfolio-row > [data-category].portfolio-hidden {
+                display: none !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="site-header"></div>
+        <section class="banner-section bg-dark position-relative">
+            <div class="line-pattern-light">
+                <span class="position-absolute line-verticle line-left"></span><span class="position-absolute line-verticle line-two"></span><span class="position-absolute line-verticle line-three"></span>
+                <span class="position-absolute line-verticle line-four"></span><span class="position-absolute line-verticle line-right"></span>
+            </div>
+            <img class="position-absolute hero-shape-top top-0 shape-width-400" src="assets/images/shapes/star-top.png" alt="Shapes" />
+            <img class="position-absolute hero-shape-bottom bottom-0 shape-width-400" src="assets/images/shapes/star-top.png" alt="Shapes" />
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" data-aos="fade-up">
+                        <h2 class="banner-title text-center text-white fw-semibold">Our Projects</h2>
+                        <ul class="d-flex align-items-center justify-content-center list-unstyled bread-crumb">
+                            <li class="text-capitalize"><a href="index.html">Home</a></li>
+                            <li class="text-capitalize d-flex align-items-center justify-content-center"><span class="breadcrumb-hr-line d-inline-block"></span></li>
+                            <li class="text-capitalize text-primary">Projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" section-padding-bottom section-padding-top  position-relative z-1">
+            <div class="line-pattern-dark">
+                <span class="position-absolute line-verticle line-left"></span><span class="position-absolute line-verticle line-two"></span><span class="position-absolute line-verticle line-three"></span>
+                <span class="position-absolute line-verticle line-four"></span><span class="position-absolute line-verticle line-right"></span>
+            </div>
+            <img class="position-absolute portfolio-shape-top top-0 left-0 shape-width-400" src="assets/images/shapes/portfolio-shape-top.png" alt="Shapes" />
+            <img class="position-absolute portfolio-shape-bottom bottom-0 shape-width-400" src="assets/images/shapes/portfolio-shape-bottom.png" alt="Shapes" />
+            <div class="container">
+                <div class="row mb-6" data-aos="fade-up">
+                    <div class="col-12">
+                        <div class="portfolio-tabs" role="tablist" aria-label="Project categories">
+                            <button type="button" class="portfolio-tab active" role="tab" aria-selected="true" data-filter="product">Product Experience | Visual Design</button>
+                            <button type="button" class="portfolio-tab" role="tab" aria-selected="false" data-filter="creative">Creative Design</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-6 pb-6" data-aos="fade-up">
+                    <div class="col-12 col-xl-6">
+                        <div class="sub-title d-flex align-items-center mb-8 mb-xl-0"><span>01</span><span class="hr-span"></span><span>Portfolio</span></div>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <h3 class="title"><span>100+ Project</span> Complete Let’s Explore Projects</h3>
+                    </div>
+                </div>
+                <div class="row portfolio-row gap-6 gap-md-0">
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://partywitty.com/feed" target="_blank"><img src="assets/images/projects/partywitty.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://partywitty.com/feed" target="_blank" class="text-dark">Party Witty</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255893545/PartyWitty" target="_blank"><img src="assets/images/projects/partywitty.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255893545/PartyWitty" target="_blank" class="text-dark">Party Witty Case Study</a></h4>
+                        </div>
+                    </div>
+
+
+                     <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/254978831/Bharat-Trend-Mobile-View" target="_blank"><img src="assets/images/projects/bharat-trend.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/254978831/Bharat-Trend-Mobile-View" target="_blank" class="text-dark">Bharat Trend Mobile View</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/254978371/Bharat-Trend" target="_blank"><img src="assets/images/projects/bharat-trend.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/254978371/Bharat-Trend" target="_blank" class="text-dark">Bharat Trend Desktop View</a></h4>
+                        </div>
+                    </div>
+
+
+                     <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/253495465/Air-India" target="_blank"><img src="assets/images/projects/air-india.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/253495465/Air-India" target="_blank" class="text-dark">Air India</a></h4>
+                        </div>
+                    </div>
+
+                     
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255875233/BF-Connect" target="_blank"><img src="assets/images/projects/bf-connect-2.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255875233/BF-Connect" target="_blank" class="text-dark">BF Connect</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255874227/Car-Glow" target="_blank"><img src="assets/images/projects/car-glow.png" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255874227/Car-Glow" target="_blank" class="text-dark">Car Glow</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255873713/FitPond" target="_blank"><img src="assets/images/projects/fit-pond.png" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255873713/FitPond" target="_blank" class="text-dark">Fit Pond</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255873127/Geek-Medi-Plus" target="_blank"><img src="assets/images/projects/geek-medi-plus.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255873127/Geek-Medi-Plus" target="_blank" class="text-dark">Geek Medi Plus</a></h4>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255872439/Clinic-Health" target="_blank"><img src="assets/images/projects/clinic-health.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255872439/Clinic-Health" target="_blank" class="text-dark">Clinic-Health</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255871711/Slide-Thru" target="_blank"><img src="assets/images/projects/slide-thru.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255871711/Slide-Thru" target="_blank" class="text-dark">Slide Thru</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/254850385/Luxoft-Dashboard" target="_blank"><img src="assets/images/projects/luxoft-dashboard.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/254850385/Luxoft-Dashboard" target="_blank" class="text-dark">Luxoft Dashboard</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/254849087/Sweepstakes-Casino-Mobile-View" target="_blank"><img src="assets/images/projects/sweepstakes-casino-mobile-view.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/254849087/Sweepstakes-Casino-Mobile-View" target="_blank" class="text-dark">Sweepstakes Casino Mobile View   </a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/254847495/Sweepstakes-Casino" target="_blank"><img src="assets/images/projects/sweepstakes-casino.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/254847495/Sweepstakes-Casino" target="_blank" class="text-dark">Sweepstakes Casino</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/248195343/BYCYCO" target="_blank"><img src="assets/images/projects/bycyco.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/248195343/BYCYCO" target="_blank" class="text-dark">BYCYCO</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/229104599/RBI" target="_blank"><img src="assets/images/projects/rbi.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/229104599/RBI" target="_blank" class="text-dark">RBI</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/229183037/Estancia" target="_blank"><img src="assets/images/projects/estancia.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/229183037/Estancia" target="_blank" class="text-dark">Estancia</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/226000457/UX4G" target="_blank"><img src="assets/images/projects/ux4g.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/226000457/UX4G" target="_blank" class="text-dark">UX4G</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/220770577/Vaani-20" target="_blank"><img src="assets/images/projects/vaani-20.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/220770577/Vaani-20" target="_blank" class="text-dark">Vaani 2.0</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/220770205/Fab-Hotel" target="_blank"><img src="assets/images/projects/fab-hotel.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/220770205/Fab-Hotel" target="_blank" class="text-dark">Fab Hotel</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/220768399/Gravity-Dashboard" target="_blank"><img src="assets/images/projects/gravity-dashboard.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/220768399/Gravity-Dashboard" target="_blank" class="text-dark">Gravity Dashboard </a></h4>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/220767859/Flight-Ticket-Booking-App" target="_blank"><img src="assets/images/projects/flight-ticket-booking-app.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/220767859/Flight-Ticket-Booking-App" target="_blank" class="text-dark">Flight Ticket Booking App</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/220766741/Voice-Blaster" target="_blank"><img src="assets/images/projects/voice-blaster.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/220766741/Voice-Blaster" target="_blank" class="text-dark">Voice Blaster</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/220765441/Grocery" target="_blank"><img src="assets/images/projects/grocery.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/220765441/Grocery" target="_blank" class="text-dark">Grocery</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/220667121/Vahan" target="_blank"><img src="assets/images/projects/vahan2.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/220667121/Vahan" target="_blank" class="text-dark">Vahan</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/220665421/WFX-PLM" target="_blank"><img src="assets/images/projects/wfx-plm.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/220665421/WFX-PLM" target="_blank" class="text-dark">WFX-PLM</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/220317305/Travel-Apps" target="_blank"><img src="assets/images/projects/travel-apps.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/220317305/Travel-Apps" target="_blank" class="text-dark">Travel Apps </a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/220315441/Shoes-Seller" target="_blank"><img src="assets/images/projects/shoes-seller.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/220315441/Shoes-Seller" target="_blank" class="text-dark">Shoes Seller</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/222028019/Vidysea-Study-for-Abroad-Landing-pages" target="_blank"><img src="assets/images/projects/vidysea-study-for-abroad-landing-pages.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/222028019/Vidysea-Study-for-Abroad-Landing-pages" target="_blank" class="text-dark">Vidysea Study For Abroad</a></h4>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.godrejinterio.com/" target="_blank"><img src="assets/images/projects/godrej-interio.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.godrejinterio.com/" target="_blank" class="text-dark">Godrej Interio</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="500">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.apnasambhal.com/" target="_blank"><img src="assets/images/projects/apna-sambhal.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>02</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.apnasambhal.com/" target="_blank" class="text-dark">Apna Sambhal</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="700">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://bandhanbank.com/" target="_blank"><img src="assets/images/projects/bandhan-bank.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>03</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://bandhanbank.com/" target="_blank" class="text-dark">Bandhan Bank</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://edukrypt.com" target="_blank"><img src="assets/images/projects/edukrypt.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>04</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://edukrypt.com/" target="_blank" class="text-dark">Edukrypt</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://brighttutee.com/" target="_blank"><img src="assets/images/projects/bright-tutee.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>05</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://brighttutee.com/" target="_blank" class="text-dark">Bright Tutee</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://shop.godrejsecure.com/" target="_blank"><img src="assets/images/projects/godrej-security-solutions.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>06</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://shop.godrejsecure.com/" target="_blank" class="text-dark">Godrej Security Solutions</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.panasonic.com/in/" target="_blank"><img src="assets/images/projects/panasonic.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>07</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.panasonic.com/in/" target="_blank" class="text-dark">Panasonic</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/194162693/Panasonic" target="_blank"><img src="assets/images/projects/panasonic2.png" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>07</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/194162693/Panasonic" target="_blank" class="text-dark">Panasonic</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://lecturebazaar.com/" target="_blank"><img src="assets/images/projects/lecture-bazaar.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>08</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://lecturebazaar.com/" target="_blank" class="text-dark">Lecture Bazaar</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.navinclasses.com/" target="_blank"><img src="assets/images/projects/navin-classes.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>09</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.navinclasses.com/" target="_blank" class="text-dark">Navin Classes</a></h4>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.rrkabel.com/" target="_blank"><img src="assets/images/projects/rrkabel2.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>10</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.rrkabel.com/" target="_blank" class="text-dark">RRKabel</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/194163937/RR-Kabel" target="_blank"><img src="assets/images/projects/rrkabel.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>10</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/194163937/RR-Kabel" target="_blank" class="text-dark">RRKabel</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://play.google.com/store/apps/details?id=com.brighttutee&hl=en_IN" target="_blank"><img src="assets/images/projects/bright-tutee-app.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>11</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://play.google.com/store/apps/details?id=com.brighttutee&hl=en_IN" target="_blank" class="text-dark">Bright Tutee App</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://genderonline.org/student-facilator" target="_blank"><img src="assets/images/projects/tkt.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>12</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://genderonline.org/student-facilator" target="_blank" class="text-dark">TKT</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://github.com/itszeeshanweb/vahan" target="_blank"><img src="assets/images/projects/Vahan.jpg" alt="Vahan" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>13</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://github.com/itszeeshanweb/vahan" target="_blank" class="text-dark">Vahan</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://itszeeshanweb.github.io/ivr-self-creation/index.html#" target="_blank"><img src="assets/images/projects/IVR-creation.jpg" alt="IVR Creation" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>14</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://itszeeshanweb.github.io/ivr-self-creation/index.html#" target="_blank" class="text-dark">IVR Creation</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://coursedemy.org/" target="_blank"><img src="assets/images/projects/Coursedemy.jpg" alt="Coursedemy" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>15</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://coursedemy.org/" target="_blank" class="text-dark"> Coursedemy</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.advanced.edu.au/" target="_blank"><img src="assets/images/projects/Advanced.jpg" alt="Advanced" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>16</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.advanced.edu.au/" target="_blank" class="text-dark"> Advanced</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255938469/Advance-Edu-Au-Adds-Gif" target="_blank"><img src="assets/images/projects/Advanced.jpg" alt="Advanced" /></a>
+                            </div>      
+                            <div class="sub-title d-flex align-items-center"><span>16</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255938469/Advance-Edu-Au-Adds-Gif" target="_blank" class="text-dark"> Advance Edu Au Adds Gif</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://infodelix.com/" target="_blank"><img src="assets/images/projects/Infodelix.jpg" alt="Infodelix" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>17</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://infodelix.com/" target="_blank" class="text-dark"> Infodelix</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://sits.edu.au/" target="_blank"><img src="assets/images/projects/sits.jpg" alt="sits" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>18</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://sits.edu.au/" target="_blank" class="text-dark"> Sits</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255938967/Sits-Add-Gif" target="_blank"><img src="assets/images/projects/sits.jpg" alt="sits" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>18</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255938967/Sits-Add-Gif" target="_blank" class="text-dark"> Sits Add Gif</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255939145/Sits-Add-for-Study-Gif" target="_blank"><img src="assets/images/projects/sits.jpg" alt="sits" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>18</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255939145/Sits-Add-for-Study-Gif" target="_blank" class="text-dark"> Sits Add for Study Gif </a></h4>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.kaltraining.com.au/" target="_blank"><img src="assets/images/projects/Kal-training.jpg" alt="Kal Training" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>19</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.kaltraining.com.au/" target="_blank" class="text-dark">Kal Training</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255938107/kal-Training-Add-Gif" target="_blank"><img src="assets/images/projects/Kal-training.jpg" alt="Kal Training" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>19</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255938107/kal-Training-Add-Gif" target="_blank" class="text-dark">Kal Training Add Gif</a></h4>
+                        </div>
+                    </div>
+
+
+     
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://blurb.global/" target="_blank"><img src="assets/images/projects/blurb-global.jpg" alt="Blurb Global" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>20</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://blurb.global/" target="_blank" class="text-dark"> Blurb Global</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://gyangurucull.com/" target="_blank"><img src="assets/images/projects/gyan-gurucull.jpg" alt="Gyan Gurucull" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>21</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://gyangurucull.com/" target="_blank" class="text-dark"> Gyan Gurucull</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.saivalleyschool.org/" target="_blank"><img src="assets/images/projects/saivalley-school.jpg" alt="Saivalley School" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>22</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.saivalleyschool.org/" target="_blank" class="text-dark">Saivalley School</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.parasinstitute.com/" target="_blank"><img src="assets/images/projects/paras-institute.jpg" alt="Paras Institute" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>23</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.parasinstitute.com/" target="_blank" class="text-dark">Paras Institute</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://jkshahclasses.com/" target="_blank"><img src="assets/images/projects/jk-shah-classes.jpg" alt="JK Shah Classes" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>24</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://jkshahclasses.com/" target="_blank" class="text-dark">JK Shah Classes</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.dhyeyaias.com/" target="_blank"><img src="assets/images/projects/dhyeya-ias.png" alt="Dhyeya IAS" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>25</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.dhyeyaias.com/" target="_blank" class="text-dark">Dhyeya IAS</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.aimsinstitute.org.in/" target="_blank"><img src="assets/images/projects/AIM-Institute.png" alt="AIM-Institute" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>26</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.aimsinstitute.org.in/" target="_blank" class="text-dark">AIM-Institute</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.commercepaathshala.com/" target="_blank"><img src="assets/images/projects/commerce-paathshala.jpg" alt="Commerce Paathshala" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>27</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.commercepaathshala.com/" target="_blank" class="text-dark">Commerce Paathshala</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://taxationwithsahiljain.com/" target="_blank"><img src="assets/images/projects/sahil-jain-classes.jpg" alt="Sahil Jain Classes" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>28</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://taxationwithsahiljain.com/" target="_blank" class="text-dark">Sahil Jain Classes</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://pmgclasses.com/" target="_blank"><img src="assets/images/projects/pmg-classes.png" alt="PMG Classes" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>29</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://pmgclasses.com/" target="_blank" class="text-dark">PMG Classes</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.bansal.ac.in/" target="_blank"><img src="assets/images/projects/bansal.jpg" alt="Bansal Classes" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>30</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.bansal.ac.in/" target="_blank" class="text-dark">Bansal Classes</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="900">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://engineersinstitute.com/" target="_blank"><img src="assets/images/projects/engineers-institute.jpg" alt="Engineers Institute" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>31</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://engineersinstitute.com/" target="_blank" class="text-dark">Engineers Institute</a></h4>
+                        </div>
+                    </div>
+                    
+
+
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/227264411/Animall-App" target="_blank"><img src="assets/images/projects/animall-app.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/227264411/Animall-App" target="_blank" class="text-dark">Animall App</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/228851061/Travel-Management" target="_blank"><img src="assets/images/projects/travel-management.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/228851061/Travel-Management" target="_blank" class="text-dark">Travel Management     </a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/225089095/Fitness-App-Portal" target="_blank"><img src="assets/images/projects/fitness-app-portal.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/225089095/Fitness-App-Portal" target="_blank" class="text-dark">Fitness App Portal</a></h4>
+                        </div>
+                    </div>
+
+                     <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/224718705/Rajasthan-Tours" target="_blank"><img src="assets/images/projects/rajasthan-tours.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/224718705/Rajasthan-Tours" target="_blank" class="text-dark">Rajasthan Tours</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/222041985/EOS-LMS" target="_blank"><img src="assets/images/projects/eos-lms.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/222041985/EOS-LMS" target="_blank" class="text-dark">EOS LMS</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/222029069/HIGHKING" target="_blank"><img src="assets/images/projects/highking.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/222029069/HIGHKING" target="_blank" class="text-dark">HIGHKING</a></h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/222028563/Unacademy-Dashboard" target="_blank"><img src="assets/images/projects/unacademy-dashboard.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/222028563/Unacademy-Dashboard" target="_blank" class="text-dark">Unacademy Dashboard</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/221286507/Branding-Club" target="_blank"><img src="assets/images/projects/branding-club.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/221286507/Branding-Club" target="_blank" class="text-dark">Branding Club </a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/222027553/Food-Recipes-Landing-page" target="_blank"><img src="assets/images/projects/food-recipes-landing-page.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/222027553/Food-Recipes-Landing-page" target="_blank" class="text-dark">Food Recipes Landing Page</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/219344139/Dating-App" target="_blank"><img src="assets/images/projects/dating-app.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/219344139/Dating-App" target="_blank" class="text-dark">Dating App</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/219343537/Hotel-Booking" target="_blank"><img src="assets/images/projects/hotel-booking.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/219343537/Hotel-Booking" target="_blank" class="text-dark">Hotel Booking</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/194165449/Godrej" target="_blank"><img src="assets/images/projects/godrej.png" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/194165449/Godrej" target="_blank" class="text-dark">Godrej</a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/220664733/Quantic" target="_blank"><img src="assets/images/projects/quantic.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/220664733/Quantic" target="_blank" class="text-dark">Quantic </a></h4>
+                        </div>
+                    </div>
+
+
+                     <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/223314461/Apna-Sambhal-Logo" target="_blank"><img src="assets/images/projects/apna-sambhal-logo.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/223314461/Apna-Sambhal-Logo" target="_blank" class="text-dark">Apna Sambhal Logo </a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/152500655/Logo" target="_blank"><img src="assets/images/projects/simplify-logo.png" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/152500655/Logo" target="_blank" class="text-dark">Apna Sambhal Logo </a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/152500215/Social-Media-Post" target="_blank"><img src="assets/images/projects/social-media-post.png" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/152500215/Social-Media-Post" target="_blank" class="text-dark">Social Media Post </a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/152499729/Post" target="_blank"><img src="assets/images/projects/ias-post.png" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/152499729/Post" target="_blank" class="text-dark">Social Media Post </a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/152499011/Flyer" target="_blank"><img src="assets/images/projects/flyer.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/152499011/Flyer" target="_blank" class="text-dark">Flyer Design </a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/152498737/brochure" target="_blank"><img src="assets/images/projects/brochure.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/152498737/brochure" target="_blank" class="text-dark">Brochure Design </a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/152498373/Creative-Post" target="_blank"><img src="assets/images/projects/creative-post.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/152498373/Creative-Post" target="_blank" class="text-dark">Creative Post </a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/152495865/Thumbnail" target="_blank"><img src="assets/images/projects/thumbnail.png" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/152495865/Thumbnail" target="_blank" class="text-dark">Thumbnail Design </a></h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6" data-category="product creative" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-card portfolio-card-style-one">
+                            <div class="portfolio-thumb">
+                                <a href="https://www.behance.net/gallery/255939723/Flyer" target="_blank"><img src="assets/images/projects/flyers.jpg" alt="Portfolio thumb" /></a>
+                            </div>
+                            <div class="sub-title d-flex align-items-center"><span>01</span><span class="hr-span"></span><span>Design</span></div>
+                            <h4 class="portfolio-title fw-medium"><a href="https://www.behance.net/gallery/255939723/Flyer" target="_blank" class="text-dark">Flyer Design </a></h4>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+     
+            </div>
+        </section>
+
+        <section class="cta-section section-padding-bottom position-relative z-1 section-padding-top bg-light ">
+            <div class="line-pattern-dark">
+                <span class="position-absolute line-verticle line-left"></span><span class="position-absolute line-verticle line-two"></span><span class="position-absolute line-verticle line-three"></span>
+                <span class="position-absolute line-verticle line-four"></span><span class="position-absolute line-verticle line-right"></span>
+            </div>
+            <div class="container">
+                <div class="row" data-aos="zoom-in">
+                    <div class="col-12 text-center">
+                        <span class="cta-sub-title text-secondary fw-medium">Have Any Project On Minds!</span>
+                        <h3 class="cta-title">Let’s Work <span>Together</span></h3>
+                        <div class="d-flex cta-btn-group justify-content-center align-items-center">
+                            <a href="assets/pdf/Zeeshan_Ahmad_Senior_Product_Designer.pdf" target="_blank" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 18 18" fill="none">
+                                    <path
+                                        d="M1 13.004V14C1 14.7956 1.31607 15.5587 1.87868 16.1213C2.44129 16.6839 3.20435 17 4 17H14C14.7956 17 15.5587 16.6839 16.1213 16.1213C16.6839 15.5587 17 14.7956 17 14V13M9 1.5V12.5M9 12.5L12.5 9M9 12.5L5.5 9"
+                                        stroke="black"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    ></path>
+                                </svg>
+                                &nbsp; Download CV
+                            </a>
+                            <a href="contact.html" class="btn btn-secondary-outline">
+                                Contact Us
+                                <span class="contact-btn-icon">
+                                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.90566 3.95808C3.88909 3.80893 4.02167 3.67634 4.1874 3.67634H11.1148C11.2806 3.67634 11.3966 3.79235 11.3966 3.95808V10.8855C11.3966 11.0512 11.264 11.1838 11.1148 11.1673L10.4685 11.1838C10.3028 11.1838 10.1702 11.0512 10.1868 10.9021L10.1702 5.74794L4.51885 11.3993C4.40284 11.5153 4.23712 11.5153 4.12111 11.3993L3.65707 10.9352C3.55763 10.8358 3.54106 10.6535 3.65707 10.5375L9.3084 4.88616H4.17083C4.02167 4.90273 3.88909 4.77015 3.88909 4.60442L3.90566 3.95808Z"
+                                            fill="currentColor"
+                                        ></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="position-absolute blog-shape-bottom bottom-0 shape-width-400" src="assets/images/shapes/star-light-bottom.png" alt="Shapes" />
+        </section>
+        <div id="site-footer"></div>
+        <script src="assets/js/modernizr-3.11.7.min.js"></script>
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/jquery-migrate-3.3.2.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/plugins/aos.js"></script>
+        <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+        <script src="assets/js/plugins/jquery.waypoints.js"></script>
+        <script src="assets/js/plugins/jquery.counterup.min.js"></script>
+        <script src="assets/js/components.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            (function () {
+                var tabs = document.querySelectorAll('.portfolio-tab');
+                var cards = document.querySelectorAll('.portfolio-row > [data-category]');
+                if (!tabs.length || !cards.length) return;
+
+                function applyFilter(filter) {
+                    cards.forEach(function (card) {
+                        var cats = (card.getAttribute('data-category') || '').split(/\s+/);
+                        card.classList.toggle('portfolio-hidden', cats.indexOf(filter) === -1);
+                    });
+                    var serial = 0;
+                    cards.forEach(function (card) {
+                        if (card.classList.contains('portfolio-hidden')) return;
+                        var num = card.querySelector('.portfolio-card .sub-title span:first-child');
+                        if (num) {
+                            serial += 1;
+                            num.textContent = serial < 10 ? '0' + serial : String(serial);
+                        }
+                    });
+                    tabs.forEach(function (tab) {
+                        var isActive = tab.getAttribute('data-filter') === filter;
+                        tab.classList.toggle('active', isActive);
+                        tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+                    });
+                    if (window.AOS && typeof window.AOS.refresh === 'function') {
+                        window.AOS.refresh();
+                    }
+                }
+
+                tabs.forEach(function (tab) {
+                    tab.addEventListener('click', function () {
+                        applyFilter(tab.getAttribute('data-filter'));
+                    });
+                });
+
+                applyFilter('product');
+            })();
+        </script>
+    </body>
+  </html>
